@@ -1,0 +1,23 @@
+.imageContainer{
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px solid black; */
+}
+
+.image{
+   
+    width: 410px;
+    height: 250px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.fix{
+    clear: both;
+}
+
+
+.image:hover img{
+   border: 1px solid red;
+   opacity: 0.3;
+}
